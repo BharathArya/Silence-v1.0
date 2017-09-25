@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Dashboard"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/namaz"
+            android:icon="@android:drawable/ic_lock_silent_mode"
+            android:title="Namaz Silence"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/personalization"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Personalization"
+            tools:ignore="HardcodedText" />
+        <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Settings"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="About"
+            tools:ignore="HardcodedText" />
+    </group>
+
+    <item android:title="Communicate"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate us" />
+        </menu>
+    </item>
+
+</menu>
