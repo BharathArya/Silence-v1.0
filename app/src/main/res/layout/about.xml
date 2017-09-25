@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="31dp"
+                android:text="    Because some places need silence"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="19dp"
+                android:text="Overview"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText"
+                android:layout_marginStart="11dp"
+                android:layout_above="@+id/textView11"
+                android:layout_alignStart="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_below="@+id/textView11"
+                android:layout_marginTop="31dp"
+                android:text="App idea by : Noor Saleem Baig  "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView9"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="22dp"
+                android:text="Developed by : Dream Team Solutions"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView6"
+                android:layout_centerVertical="true"
+                android:text="This app can be customized to set phone into silent mode automatically as per the user needs. Because some places need silence, and it's human nature to forget things, it can be a great help if an app can manage it for you."
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText"
+                android:layout_alignStart="@+id/textView7" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_marginTop="14dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            tools:ignore="ObsoleteLayoutParam">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@+id/relativeLayout2"
+            android:layout_alignStart="@+id/relativeLayout"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorPrimary"
+            tools:ignore="ObsoleteLayoutParam">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/relativeLayout3"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="15dp"
+            android:text="App idea by : Noor Saleem Baig  "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="17dp"
+            android:text="Developed by : Dream Team Solutions"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView10"
+            android:layout_alignStart="@+id/relativeLayout2"
+            android:layout_below="@+id/textView7"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="11dp"
+            android:text="This app was developed to make android users be tension free to keep their phones in silent mode. Because some places need silence, and a user may forget to keep his/her phone in silence mode, this app can be used to manage to automatically set the phone to silence mode for customized timings."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silence  v1.0"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="false"
+        app:srcCompat="@drawable/silent"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toStartOf="@+id/textView5"
+        android:layout_marginEnd="15dp"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
